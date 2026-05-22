@@ -1,0 +1,12 @@
+2026-05-18 10:03:42,813 [INFO] ============================================================
+2026-05-18 10:03:42,814 [INFO] Pump.fun 监控扫描 - 2026-05-18 10:03:42
+2026-05-18 10:03:42,814 [INFO] ============================================================
+2026-05-18 10:03:42,814 [INFO] [Pump] 请求代币列表: https://pump.fun/api/coins
+2026-05-18 10:04:42,910 [ERROR] [Pump] 请求异常: HTTPSConnectionPool(host='pump.fun', port=443): Max retries exceeded with url: /api/coins (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022E25968890>, 'Connection to pump.fun timed out. (connect timeout=15)'))
+2026-05-18 10:04:42,911 [WARNING] 未获取到代币数据
+2026-05-18 10:08:42,106 [INFO] ============================================================
+2026-05-18 10:08:42,107 [INFO] Pump.fun 监控扫描 - 2026-05-18 10:08:42
+2026-05-18 10:08:42,107 [INFO] ============================================================
+2026-05-18 10:08:42,107 [INFO] [DexScreener] 搜索 Pump.fun 代币: https://api.dexscreener.com/latest/dex/search/?q=pump.fun
+2026-05-18 10:09:42,142 [ERROR] [DexScreener] 请求异常: HTTPSConnectionPool(host='api.dexscreener.com', port=443): Max retries exceeded with url: /latest/dex/search/?q=pump.fun (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025AA5DCEE70>, 'Connection to api.dexscreener.com timed out. (connect timeout=15)'))
+2026-05-18 10:09:42,142 [WARNING] 未获取到 Pump.fun 交易对数据
